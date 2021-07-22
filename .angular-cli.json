@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [ "assets", "favicon.ico" ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "prefix": "app",
+      "styles": [ "styles.css" , "./node_modules/jquery-ui-dist/jquery-ui.css", "./node_modules/easy-autocomplete/dist/easy-autocomplete.css", "./node_modules/jquery-bar-rating/dist/themes/fontawesome-stars.css", "./node_modules/bootstrap/dist/css/bootstrap.css", "./node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.css"
+ ],
+      "scripts": [ "./node_modules/jquery/dist/jquery.min.js", "./node_modules/jquery-ui-dist/jquery-ui.js", "./node_modules/easy-autocomplete/dist/jquery.easy-autocomplete.js", "./node_modules/jquery-bar-rating/jquery.barrating.js", "./node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.js", "./node_modules/emotion-ratings/dist/emotion-ratings.js", "./node_modules/select2/dist/js/select2.js"
+ ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ]
+}
